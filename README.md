@@ -1,38 +1,51 @@
-# Security Incident Report – Malware Infection and Brute Force Attack
+# Security Incident Report – Web Compromise & Malware Delivery
 
-This project contains a cybersecurity incident report based on network traffic and log analysis.
+This repository contains a professional cybersecurity incident report based on network traffic and log analysis from a simulated attack scenario.
 
-The objective was to investigate suspicious activity, identify the attack method, and explain the impact on the organization.
-
----
-
-# Incident Summary
-
-An attacker gained unauthorized access to the web server using a brute force attack. After gaining access, the attacker injected malicious JavaScript into the website.
-
-This script caused users to download malware and redirected them to a malicious domain.
+The objective of this project was to investigate suspicious network activity, identify the attack method, assess its impact, and propose mitigation strategies.
 
 ---
 
-# Skills Demonstrated
+## 🔍 Incident Overview
 
-• Incident analysis  
-• Log analysis  
-• Threat identification  
-• Incident response documentation  
+An attacker successfully executed a brute force attack against the target web server, gaining unauthorized access. Afterward, malicious JavaScript code was injected into the website, leading to:
 
----
-
-# Tools Used
-
-• tcpdump  
-• Linux  
-• SQL  
-• Network traffic analysis  
+✔ Unintended downloads by users  
+✔ Redirections to a malicious domain serving malware  
 
 ---
 
-# Author
+## 🛠️ Skills Demonstrated
 
-Guilherme Pigoso  
-Aspiring SOC Analyst
+• Security Incident Analysis  
+• Log Analysis  
+• Threat Identification  
+• Incident Documentation  
+• Incident Response Planning  
+
+---
+
+## 🧰 Tools Used
+
+• **Linux** – command line and system examination  
+• **tcpdump** – network traffic capture and analysis  
+• **SQL** – investigation of login and security logs  
+• **Network Protocol Understanding** – HTTP, DNS, ICMP  
+
+---
+
+## 📄 Report
+
+The complete incident report can be found in the file:
+
+**[incident-report.pdf](./incident-report.pdf)**
+
+---
+
+## 👤 Author
+
+**Guilherme Pigoso**  
+Aspiring SOC Analyst  
+Lisbon, Portugal  
+GitHub: https://github.com/GPigoso  
+LinkedIn: https://www.linkedin.com/in/guilherme-pigoso-a75a84241/
